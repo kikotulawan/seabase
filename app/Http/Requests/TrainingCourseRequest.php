@@ -1,0 +1,41 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class TrainingCourseRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            'code' => 'required|unique:training_courses,code,' .$this->id,
+            'course' => 'required|unique:training_courses,course,' .$this->id,
+            'notifydays' => 'required|numeric',
+        ];
+    }
+
+    public function attributes()
+    {
+        return [
+            'code' => 'Code',
+            'course' => 'Training Course',
+            'notifydays' => 'Days to Notify'
+        ];
+    }
+}

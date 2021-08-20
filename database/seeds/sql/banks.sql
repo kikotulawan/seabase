@@ -1,0 +1,23 @@
+
+INSERT INTO `banks` VALUES (1, 'BDO', 'Banco De Oro', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (2, 'BPI', 'BANK OF THE PHILIPPINE ISLANDS', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (3, 'MB', 'Metro Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (4, 'MYBAN', 'May Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (5, 'LB', 'Land Bank of the Philippines', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (6, 'UB', 'Union Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (7, 'PNB', 'PHILIPPINE NATIONAL BANK', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (8, 'SBTC', 'SECURITY BANK CORPORATION', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (9, 'EWB', 'East West Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (10, 'AB', 'Allied Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (11, 'CB', 'China Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (12, 'DBP', 'DEVELOPMENT BANK OF THE PHILIPPINES', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (13, 'RCBC', 'RIZAL COMMERCIAL BANKING CORPORATION', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (14, 'UCPB', 'UNITED COCONUT PLANTERS BANK', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (15, 'BOC', 'Bank of Commerce', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (16, 'PNBS', 'Philippine National Bank Savings', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (17, 'BPIn', 'BPInoy', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (18, 'ARQ', 'Aranque', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (19, 'AUB', 'Asian United Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (20, 'PSB', 'PS Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (21, 'BPIFB', 'Bank of the Philippine Islands Family Bank', 2, NULL, NULL);
+INSERT INTO `banks` VALUES (22, 'BPISB', 'Bank of the Philippines Saving Bank', 2, NULL, NULL);
